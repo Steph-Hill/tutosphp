@@ -10,7 +10,12 @@ class Simple {
         return $this->nomPrive ;
 
     }
+   
+    public function setNomPrive($nom){
 
+        return $this->nomPrive = $nom ;
+
+    }
 
 }
 

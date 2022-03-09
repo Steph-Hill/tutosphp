@@ -15,5 +15,9 @@
 
     echo $simpleTest->getNomPrive()."<br>";
 
+    $simpleTest->setNomPrive("Stephen");
+
+    echo $simpleTest->getNomPrive() ."<br>";
+
 
 ?>
