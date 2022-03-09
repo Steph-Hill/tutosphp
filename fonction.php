@@ -1,6 +1,6 @@
 <?php
 
-        function majeurOrNot( $nom, $prenom, $age){
+        function majeurOrNot($nom, $prenom, $age){
             $affSortie = "Bonjour";
 
 
@@ -19,7 +19,7 @@
                         }
 
 
-                return;
+                return $affSortie;
 
 
 

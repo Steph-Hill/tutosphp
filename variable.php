@@ -1,29 +1,28 @@
 <?php
 
-        include("fonction.php");
+        include("poo.php");
+
+        $majeur = new Majeur() ;
+
+       
+
+
+       //include("fonction.php");
 
 
     $prenom = "Stéphen";
 
-    $nom = "HILLION";
+    $nom = strtoupper("hillion");
     
-    $age = "20";
+    $age = 20;
 
     $affAge = true;
 
 
-        echo majeurOrNot( $prenom, $nom , $age);
+        echo $majeur->majeurOrNot($prenom,$nom,$age);
 
-    /*echo $nom
-            ." "
-            .$prenom
-            . "  vous avez "
-            . $age
-            ." ans."
-            ." félicitation!!!!";*/
-
-
-
+    
+            
 
 
 ?>
