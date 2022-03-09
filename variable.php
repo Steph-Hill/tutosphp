@@ -1,5 +1,8 @@
 <?php
 
+        include("fonction.php");
+
+
     $prenom = "Stéphen";
 
     $nom = "HILLION";
@@ -9,25 +12,7 @@
     $affAge = true;
 
 
-
-
-    $affSortie = "Bonjour";
-
-    if($age > 21){
-
-        $affSortie = $affSortie . " "
-                . $prenom. " ". $nom 
-                . " vous etes majeur";
-
-
-        }else {
-
-            $affSortie = $affSortie. " "
-                    .$prenom ." ". $nom
-                    ." vous n'etes pas majeur !";
-        }
-
-    echo $affSortie;
+        echo majeurOrNot( $prenom, $nom , $age);
 
     /*echo $nom
             ." "
