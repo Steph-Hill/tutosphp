@@ -4,20 +4,28 @@
 
     $nom = "HILLION";
     
-    $age = "27";
+    $age = "20";
 
     $affAge = true;
 
 
 
 
-    $affSortie = $nom." ".$prenom ;
+    $affSortie = "Bonjour";
 
-    if($affAge){
+    if($age > 21){
 
-        $affSortie = $affSortie ." vous avez ". $age. " ans." ;
+        $affSortie = $affSortie . " "
+                . $prenom. " ". $nom 
+                . " vous etes majeur";
 
-    }
+
+        }else {
+
+            $affSortie = $affSortie. " "
+                    .$prenom ." ". $nom
+                    ." vous n'etes pas majeur !";
+        }
 
     echo $affSortie;
 
