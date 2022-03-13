@@ -18,29 +18,29 @@
     }*/
  
 
-    for($i=0; $i < 10; $i++) { 
+    /*for($i=0; $i < 10; $i++) { 
  
         $calcul = $nombre * $i;
 
         echo $nombre." x ". $i. " = ". $calcul;
         echo "</br>";
 
-    }
+    }*/
 
 
     echo "</br>";
-
-    /* $a=0;
+    
+     $a = 1;
 
    while ($a <= 10) {
-        $calcul = $nombre*$a;
+        $calcul = $nombre * $a;
 
         echo $nombre." x ". $a. " = ". $calcul;
         echo "</br>";   
      
         $a++;
 
-    }*/
+    }
        
 
 ?>

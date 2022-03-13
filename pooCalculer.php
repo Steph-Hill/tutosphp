@@ -18,7 +18,7 @@
         }
 
 
-       /* private function monCalcul(){
+        private function monCalcul(){
 
       
 
@@ -37,8 +37,8 @@
                     }
 
 
-        }*/
-        private function monCalcul(){
+        }
+        /*private function monCalcul(){
 
                 switch ($this->operateur) {
 
@@ -71,8 +71,7 @@
             
                   
 
-        }
-
+        }*/
 
              public function affResultat(){
 
