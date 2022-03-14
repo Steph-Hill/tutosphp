@@ -1,7 +1,7 @@
 <?php
 
 
-           /* function plusPetit($nombre1,$nombre2,$nombre3) {
+           /*function plusPetit($nombre1,$nombre2,$nombre3) {
 
                 if (($nombre1>$nombre3) && ($nombre2>$nombre3)) {
 
@@ -44,7 +44,7 @@
                     }
 
 
-                    echo plusPetit(25,100,7);
+                    echo plusPetit(5,100,7);
 
 
 
